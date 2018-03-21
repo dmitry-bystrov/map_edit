@@ -1,0 +1,90 @@
+.map {
+    -fx-background-image: url("../assets/ground.png");
+}
+
+.topPane {
+    -fx-padding: 10;
+    -fx-font-size: 10pt;
+}
+
+.text-field {
+    -fx-pref-width: 40px;
+}
+
+.combo-box {
+    -fx-pref-width: 120px;
+}
+
+.spinner {
+    -fx-pref-width: 64px;
+}
+
+.map .button {
+    -fx-border-color: transparent;
+    -fx-background-color: transparent;
+    -fx-min-width: 80px;
+    -fx-min-height: 80px;
+    -fx-pref-width: 80px;
+    -fx-pref-height: 80px;
+    -fx-border-width: 0px;
+    -fx-border-width: 2px;
+}
+
+.map .button:hover {
+    -fx-border-color: rgb(0,255,0);
+}
+
+#wall {
+    -fx-background-image: url("../assets/wall.png");
+}
+
+#food {
+    -fx-background-image: url("../assets/food.png");
+}
+
+#xfood {
+    -fx-background-image: url("../assets/xfood.png");
+}
+
+#pacman {
+    -fx-background-image: url("../assets/pacman.png");
+}
+
+#red_ghost {
+    -fx-background-image: url("../assets/red_ghost.png");
+}
+
+#green_ghost {
+    -fx-background-image: url("../assets/green_ghost.png");
+}
+
+#blue_ghost {
+    -fx-background-image: url("../assets/blue_ghost.png");
+}
+
+#purple_ghost {
+    -fx-background-image: url("../assets/purple_ghost.png");
+}
+
+.scroll-pane {
+    -fx-background-color: rgb(50,50,50);
+}
+
+.scroll-pane .viewport {
+    -fx-background-color: transparent;
+}
+
+.scroll-bar {
+    -fx-pref-width: 20;
+    -fx-pref-height: 20;
+    -fx-font-size: 10pt;
+    -fx-background-color:transparent;
+}
+
+.scroll-bar .thumb {
+    -fx-background-color: rgb(150,150,150);
+}
+
+.scroll-pane .corner {
+    -fx-background-color: rgb(50,50,50);
+}
